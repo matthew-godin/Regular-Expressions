@@ -1,0 +1,2 @@
+# Searches for either "Test", "Airplane" or "Car"
+/Test|Airplane|Car
