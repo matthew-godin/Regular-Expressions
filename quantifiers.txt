@@ -9,3 +9,12 @@
 
 # Searches for "He", "Hey", "Heyy", "Heyyy", ...
 /Hey*
+
+# Searches for "Hello"
+/Hel{2}o
+
+# Searches for "Hello", "Helllo", "Hellllo", ...
+/Hel{2,}o
+
+# Searches for "Hello" or "Helllo"
+/Hel{2,3}o
