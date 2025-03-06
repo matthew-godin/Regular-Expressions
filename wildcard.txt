@@ -1,0 +1,2 @@
+# Searches for "Hea", "Heb", "Hec", ... (any third character)
+/He.
