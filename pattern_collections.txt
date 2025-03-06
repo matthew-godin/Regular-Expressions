@@ -1,0 +1,11 @@
+# Searches for "a", "b", "c" or "d"
+/[abcd]
+
+# Searches for "a", "b" or "c"
+/[a-c]
+
+# Searches any string of 1 character that is not "a", "b" or "c"
+/[^a-c]
+
+# Searches any string of 1 character that is an uppercase letter or a number
+/[A-Z0-9]
