@@ -1,0 +1,9 @@
+# Searches for Test (case sensitive, all instances)
+/Test/g
+
+# Searches for Test (case sensitive, forcing it to be at the beginning or end of a line)
+/Test/m
+
+# Searches for Test (case insensitive, all instances)
+/Test/i
+
