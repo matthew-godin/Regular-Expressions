@@ -1,2 +1,5 @@
 # Searches for either "Test", "Airplane" or "Car"
 /Test|Airplane|Car
+
+# Searches for "Hey" or "He"
+/Hey?
