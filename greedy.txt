@@ -1,0 +1,7 @@
+# Searches for "Hey", "Heyy", "Heyyy", ...
+# Will only stop at the shortest match
+/Hey+?
+
+# Searches for "He", "Hey", "Heyy", "Heyyy", ...
+# Will only stop at the shortest match
+/Hey*?
