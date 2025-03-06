@@ -3,3 +3,9 @@
 
 # Searches for "Hey" or "He"
 /Hey?
+
+# Searches for "Hey", "Heyy", "Heyyy", ...
+/Hey+
+
+# Searches for "He", "Hey", "Heyy", "Heyyy", ...
+/Hey*
