@@ -1,0 +1,6 @@
+# Searches "Test" and replaces it with "ABC" on current line
+s/Test/ABC
+
+# Searches "Test" and replaces it with "ABC" on current file
+
+s/Test/ABC
