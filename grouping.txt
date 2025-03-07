@@ -1,0 +1,23 @@
+# Searches for "Test 123" or "Testing 123"
+/(Test|Testing) 123
+
+# Searches for "Test 123" or "Testing 123" ((Test|Testing) is not captured in a substitution)
+/(?:Test|Testing) 123
+
+# Searches for "Test " followed by any three number character (the three number characters are captured in capture group "num" for substitutions or back references)
+/Test (?<num>\d{3})
+
+# Searches for "Test Test" (using a back reference for the second "Test")
+/(?<test>Test) \k<test>
+
+# Searches for "AB" followed by one character that is not "C" (negative lookahead, last character is not highlighted in search)
+/AB(?!C)
+
+# Searches for "ABC" (positive lookahead, last character is not highlighted in search)
+/AB(?=C)
+
+# Searches for any two characters that are not AB followed by "C" (negative lookbehind, first two characters are not highlighted in search)
+/(?<!AB)C
+
+# Searches for "ABC" (positive lookbehind, first two chracters are not highlighted in search)
+/(?<=AB)C 

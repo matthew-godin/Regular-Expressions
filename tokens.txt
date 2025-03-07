@@ -6,5 +6,6 @@
 # \S: Any non-whitespace
 # \w or \B: Any word character (letter, number or _)
 # \W or \b: Any non-word character (word boundary)
+# \d: Any number character (digit)
 # ^: Only matches following if at start of a line
 # $: Only matches following if at end of a line
